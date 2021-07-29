@@ -5,135 +5,905 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./asset/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Shop Market</title>
+    <link rel="icon" href="https://i.gifer.com/Xllv.gif" type="image/gif" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,600;1,800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./asset/font/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="./asset/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js" defer></script>
 </head>
 
 <body>
     <!--  -->
-    <header>
-        <section class="top-bar bg-dark">
-            <div class="container">
-                <div class="row text-white">
-                    <div class="col-sm">
-                        <div class="d-flex">
-                            <img src="./asset/img/header/Forma_1.png" alt="">
-                            <div>
-                                <p class="text-bold">30 DAY RETURN</p>
-                                <p>moneyback guarantee</p>
-                            </div>
+    <section class="top-bar bg-black">
+        <div class="container bg-container">
+            <div class="row text-white">
+                <div class="col-sm">
+                    <div class="d-flex">
+                        <img src="./asset/img/header/Forma_1.png" alt="">
+                        <div>
+                            <p class="text-bold">30 DAY RETURN</p>
+                            <p>moneyback guarantee</p>
                         </div>
                     </div>
-                    <div class="col-sm">
-                        <div class="d-flex">
-                            <img src="./asset/img/header/Forma_2.png" alt="">
-                            <div>
-                                <p class="text-bold">FREE SHIPPING ON $30</p>
-                                <p>moneyback guarantee</p>
-                            </div>
+                </div>
+                <div class="col-sm dash-bar align-items-center">
+                    <div class="dash "></div>
+                    <div class="d-flex">
+                        <img src="./asset/img/header/Forma_2.png" alt="">
+                        <div>
+                            <p class="text-bold">FREE SHIPPING ON $30</p>
+                            <p>moneyback guarantee</p>
                         </div>
                     </div>
-                    <div class="col-sm">
-                        <div class="d-flex">
-                            <img src="./asset/img/header/Forma_3.png" alt="">
-                            <div>
-                                <p class="text-bold">SAFE SHOPPING</p>
-                                <p>moneyback guarantee</p>
-                            </div>
+                    <div class="dash"></div>
+                </div>
+                <div class="col-sm">
+                    <div class="d-flex">
+                        <img src="./asset/img/header/Forma_3.png" alt="">
+                        <div>
+                            <p class="text-bold">SAFE SHOPPING</p>
+                            <p>moneyback guarantee</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <nav class="top-nav">
-            <div class="container">
-                <div class="row justify-content-between">
-                    <div class="col-auto">
-                        <ul class="top-nav_country-list">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    English
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">American</a>
-                                    <a class="dropdown-item" href="#">Vietnames</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Italia</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    USD
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">GBP</a>
-                                    <a class="dropdown-item" href="#">VND</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">EUR</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-auto">
-                        <ul class="top-nav_link">
-                            <li><a href="#"><span class="ti-heart"></span> Wishlist</a></li>
-                            <li><a href="#"><span class="ti-user"></span> MyAccount</a></li>
-                            <li><a href="#"><span class="ti-check-box"></span> Checkout</a></li>
-                            <li><a href="#"><span class="ti-lock"></span> Login</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </section>
     <!--  -->
-    <main>
+    <div class="container bg-box">
+        <header>
+            <main>
+            <nav class="top-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3 mobile-320">
+                          <ul class="top-nav_country-list">
+                                <li class="nav-item dropdown d-flex">
+                                    <img src="./asset/img/header/England.png" alt="" style="height: 50%; padding-top: 13px;">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        English
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">American</a>
+                                        <a class="dropdown-item" href="#">Vietnames</a>
+                                        <a class="dropdown-item" href="#">Italia</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        USD
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">GBP</a>
+                                        <a class="dropdown-item" href="#">VND</a>
+                                        <a class="dropdown-item" href="#">EUR</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-9 mobile-320">
+                            <ul class="top-nav_link">
+                                <li><a href="#"><span class="ti-heart"></span> Wishlist</a></li>
+                                <li><a href="#"><span class="ti-user"></span> MyAccount</a></li>
+                                <li><a href="#"><span class="ti-check-box"></span> Checkout</a></li>
+                                <li><a href="#"><span class="ti-lock"></span> Login</a></li>
+                                <li><a href="#"><span class="ti-shopping-cart"></span></a><sup>0</sup></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+         <section class="top-icon">
+             <div  class="container">
+                 <div class="row">
+                     <div class="col-sm-12 col-md-3 offset-md-4">
+                    <div class="title-icon text-center">
+                        <h1>MARKET</h1>
+                        <p>Shop all you want</p>
+                    </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12 offset-md-2">
+                        <nav class="navbar">
+                            <form class="form-inline">
+                              <div class="input-group">
+                                <input type="text" class="form-control focus" placeholder="Search" >
+                                <div class="input-group-prepend">
+                                  <button class="input-group-text ti-search"></button>
+                                </div>
+                              </div>    
+                            </form>
+                          </nav>
+                </div>
+                </div>
+             </div>
+    
+         </section>
+         <section class="top-menu">
+             <!-- Mobile -->
+               <!-- Toggler/collapsibe Button -->
+               <div class="container mobile-menu navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="container container-fluid bg-white menu-mobi">
+                    <div class="row">
+                        <div class="col-auto collapse navbar-collapse" id="navbarSupportedContent">
+                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                               <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       HOME
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                   </div>
+                               </li>
+                               <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                       NEW ARRIVALS
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                   </div>
+                               </li>
+                               <li><a href="#">PROMOTIONS</a></li>
+                               <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      SPECIALS
+                                   </a>
+                                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                       <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                   </div>
+                               </li>
+                               <li><a href="#">BLOG</a></li>
+                               <li><a href="#">CONTACT US</a></li>
+                               <li><a href="#">ABOUT US</a></li>
+                           </ul>
+                        </div>
+                        <div class="col-auto">
+                            <ul class="top-menu-home-right">
+                                <li><a href="#">SPECIAL OFFER!</a></li>
+                                <li><a href="#">BUY THIS THEME!<sup class="sup-new">Hot</sup></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+             <!-- PC -->
+             <div class="container pc-menu">
+                 <div class="row"  id="nav-scroll">
+                     <div class="col-auto mt-20">
+                        <ul class="top-menu-home-left">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    HOME
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    NEW ARRIVALS
+                                    <sup class="sup-new">New</sup>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                </div>
+                            </li>
+                            <li><a href="#">PROMOTIONS</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   SPECIALS
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                    <a class="dropdown-item  pd-aaa" href="#">Home</a>
+                                </div>
+                            </li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-auto mt-20">
+                         <ul class="top-menu-home-right">
+                             <li><a href="#">SPECIAL OFFER!</a></li>
+                             <li><a href="#">BUY THIS THEME!<sup class="sup-new">Hot</sup></a></li>
+                         </ul>
+                     </div>
+                 </div>
+                 <hr>
+             </div>
+         </section>
+        </header>
+        <div class="bg-color">
         <section class="slider">
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9">
+                    <div class="slideshow-container">
+                        <div id="slider" class="slide-img">
+                        <div class="navigation">
+                        <a class="prev" onclick="prev()">&#10094;</a>
+                        <a class="next" onclick="next()">&#10095;</a>
+                        </div>
+                        <p id="text" class="text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 slider-tablet">
+                    <div class="heght-img slider-img1">
+                        <img class="layer-img" src="./asset/img/slider/slider-right/Layer34.jpg" alt="">
+                        <div class="layer-text layer-mobi layer-mobi320">
+                            <p class='sale'>Sale</p>
+                            <p class='summer'>Summer</p>
+                            <p class='holiday'>HOLIDAY</p>
+                            <p class='hit'>HITS</p>
+                            <a href='#' class='shop-now'>SHOP NOW >></a>
+                        </div>
+                    </div> 
+                    <div class="heght-img slider-img2">
+                        <div id="layer-img" class="layer-img mt-20">
+                        </div>
+                        <p id="layer-text" class="layer-text layer-mobi320"></p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
         </section>
         <!--  -->
         <section class="brand">
-
+            <div class="container">
+                <section class="customer-logos slider">
+                   <div class="slide"><img src="./asset/img/brand/Layer2.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer4.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer1.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer5.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer3.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer2.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer4.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer1.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer5.jpg"></div>
+                   <div class="slide"><img src="./asset/img/brand/Layer3.jpg"></div>
+                </section>             
+            </div>
         </section>
         <!--  -->
         <section class="shopping">
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="shopping-img man"> 
+                            <div class="text-shopMan">
+                                <a href="#">SHOP MEN'S</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div id="shop-img" class="shopping-img"> 
+                            <div class="text-shopMan">
+                                <a href="#">SHOP KID'S</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="shopping-img women"> 
+                            <div class="text-shopMan">
+                                <a href="#">SHOP WOMEN'S</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!--  -->
+        <!-- Product-PC -->
         <section class="product">
-
+            <div class="container">
+                <div class="row bd-bot">    
+                    <div class="col-9">
+                        <div class="new-list">
+                            <div>
+                                <a href="#">NEW ARRIVALS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 d-flex justify-content-end">
+                        <button id="prev" class="prev-product dots"><i class="ti-angle-left"></i></button>
+                        <button id="next" class="next-product dots"><i class="ti-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="row slider-nav align-items-baseline">
+                    <div class="col-md-3 product-item">
+                        <div class="row-md-8 image">
+                             <img src="./asset/img/product/New folder/1.jpg">
+                        </div>
+                        <div class="row-md-4">
+                            <p class="name-product">Duis autem veleum</p>
+            
+                            <div class="rating">
+                              <input type="radio" name="rating" id="rating-5">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-4">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-3">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-2">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-1">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <div class="emoji-wrapper">
+                                </div>
+                            </div>
+                            <div class="price d-flex justify-content-center">
+                                <p class="price-discount">$116.000</p>
+                                <p class="price-root">$127.000</p>
+                            </div>  
+                            <div class="icon-product">
+                                <button><i class="ti-shopping-cart"></i></button>
+                                <button><i class="ti-heart"></i></button>
+                                <button><i class="ti-image"></i></button>
+                            </div> 
+                        </div>
+               
+                    </div>
+                   <div class=" col-md-3 product-item">
+                    <div class="row-md-8 image">
+                            <img src="./asset/img/product/New folder/2.jpg">
+                    </div>
+                    <div class="row-md-4">
+                        <p class="name-product">Duis autem veleum</p>
+                   
+                        <div class="rating">
+                                <input type="radio" name="rating" id="rating-5">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-4">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-3">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-2">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-1">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <div class="emoji-wrapper">
+                                </div>
+                        </div>
+                        <div class="price d-flex justify-content-center">
+                            <p class="price-discount">$116.000</p>
+                            <p class="price-root">$127.000</p>
+                        </div>
+                        <div class="icon-product">
+                            <button><i class="ti-shopping-cart"></i></button>
+                            <button><i class="ti-heart"></i></button>
+                            <button><i class="ti-image"></i></button>
+                        </div>
+                    </div>
+         
+                    
+                    </div>
+                   <div class=" col-md-3 product-item">
+                    <div class="row-md-8 image">
+                             <img src="./asset/img/product/New folder/3.jpg">
+                    </div>
+                    <div class="row-md-4">
+                        <p class="name-product">Duis autem veleum</p>
+                       
+                        <div class="rating">
+                                <input type="radio" name="rating" id="rating-5">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-4">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-3">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-2">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-1">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <div class="emoji-wrapper">
+                                </div>
+                        </div>
+                        <div class="price d-flex justify-content-center">
+                            <p class="price-discount">$116.000</p>
+                            <p class="price-root">$127.000</p>
+                        </div>
+                        <div class="icon-product">
+                            <button><i class="ti-shopping-cart"></i></button>
+                            <button><i class="ti-heart"></i></button>
+                            <button><i class="ti-image"></i></button>
+                        </div>
+                  
+                    </div>
+                      
+                    </div>
+                   <div class="col-md-3 product-item item-4">
+                        <div class=" row-md-8 image">
+                            <img src="./asset/img/product/New folder/4.jpg" class="">
+                        </div>
+                        <div class="row-md-4">
+                            <p class="name-product">Duis autem veleum</p>
+                      
+                            <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-4">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-3">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-2">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-1">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <div class="emoji-wrapper">
+                                </div>
+                            </div>
+                            <div class="price d-flex justify-content-center">
+                                <p class="price-discount">$116.000</p>
+                                <p class="price-root">$127.000</p>
+                            </div>
+                            <div class="icon-product">
+                                <button><i class="ti-shopping-cart"></i></button>
+                                <button><i class="ti-heart"></i></button>
+                                <button><i class="ti-image"></i></button>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <!--  -->
+                    <div class="col-md-3 product-item item-4">
+                        <div class="row-md-8 image">
+                            <img src="./asset/img/product/New folder/1.jpg" class="">
+                        </div>
+                        
+                        <div class="row-md-4">
+                            <p class="name-product">Duis autem veleum</p>
+                            <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-4">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-3">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-2">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-1">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <div class="emoji-wrapper">
+                                </div>
+                            </div>
+                            <div class="price d-flex justify-content-center">
+                                <p class="price-discount">$116.000</p>
+                                <p class="price-root">$127.000</p>
+                            </div>
+                            <div class="icon-product">
+                                <button><i class="ti-shopping-cart"></i></button>
+                                <button><i class="ti-heart"></i></button>
+                                <button><i class="ti-image"></i></button>
+                            </div>
+                        </div>
+                  
+                     </div>
+                     <div class="col-md-3 product-item item-4">
+                        <div class="row-md-8 image">
+                            <img src="./asset/img/product/New folder/2.jpg" class="">
+                        </div>
+                        
+                        <p class="name-product">Duis autem veleum</p>
+                       
+                             <div class="rating">
+                               <input type="radio" name="rating" id="rating-5">
+                               <label for="rating-5"></label>
+                               <input type="radio" name="rating" id="rating-4">
+                               <label for="rating-4"></label>
+                               <input type="radio" name="rating" id="rating-3">
+                               <label for="rating-3"></label>
+                               <input type="radio" name="rating" id="rating-2">
+                               <label for="rating-2"></label>
+                               <input type="radio" name="rating" id="rating-1">
+                               <label for="rating-1"></label>
+                               <div class="emoji-wrapper">
+                                 </div>
+                             </div>
+                             <div class="price d-flex justify-content-center">
+                                 <p class="price-discount">$116.000</p>
+                                 <p class="price-root">$127.000</p>
+                             </div>
+                             <div class="icon-product">
+                                 <button><i class="ti-shopping-cart"></i></button>
+                                 <button><i class="ti-heart"></i></button>
+                                 <button><i class="ti-image"></i></button>
+                             </div>
+                     </div>
+                </div>
+            </div>
         </section>
         <!--  -->
         <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 pd-img1">
+                        <div class="banner-img1"></div>
+                        <div class="layer-text banner-text1">
+                            <p class='sale'>Sale</p>
+                            <p class='summer'>Summer</p>
+                            <p class='holiday'>HOLIDAY</p>
+                            <p class='hit'>HITS</p>
+                            <a href='#' class='shop-now'>SHOP NOW >></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 pd-img2">
+                        <div class="banner-img2"></div>
+                    </div>
+                    <div class="col-xl-3 pd-img3">
+                        <div class="row-md-6 media-tab1">
+                        <div class="banner-img3-1">
+                            <div class="banner-text3">
+                                <p class='sale'>Sale</p>
+                                <p class='upto'>- UP TO -</p>
+                                <p class="discount">70%</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="row-md-6 media-tab2">
+                        <div class="banner-img3"></div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
         </section>
         <!--  -->
+        <!-- Product-PC -->
         <section class="product">
-
+                <div class="container">
+                    <div class="row bd-bot">    
+                        <div class="col-9 d-flex">
+                            <div class="new-list">
+                                <div>
+                                    <a href="#">FEATURED</a>
+                                </div>
+                            </div>
+                            <div class="new-list d-flex mobile-list">
+                                <div class="dash-product"></div>
+                                <div>
+                                    <a href="#" class="list-dash">NEW ARRIVALS</a>
+                                </div>
+                                <div class="dash-product"></div>
+                            </div>
+                            <div class="new-list mobile-list">
+                                <div>
+                                    <a href="#">BEST SELLER</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 d-flex justify-content-end">
+                            <button id="prev2" class="prev-product dots"><i class="ti-angle-left"></i></button>
+                            <button id="next2" class="next-product dots"><i class="ti-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="row slider-nav2">
+                        <div class="col-md-3 product-item">
+                            <img src="./asset/img/product/55.jpg">
+                            <p class="name-product">Duis autem veleum</p>
+                
+                                <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-4">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-3">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-2">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-1">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <div class="emoji-wrapper">
+                                      </div>
+                                </div>
+                            <div class="price d-flex justify-content-center">
+                                <p class="price-discount">$116.000</p>
+                                <p class="price-root">$127.000</p>
+                            </div>  
+                            <div class="icon-product">
+                                <button><i class="ti-shopping-cart"></i></button>
+                                <button><i class="ti-heart"></i></button>
+                                <button><i class="ti-image"></i></button>
+                            </div>  
+                        </div>
+                       <div class=" col-md-3 product-item">
+                           <img src="./asset/img/product/66.jpg">
+                           <p class="name-product">Duis autem veleum</p>
+                       
+                            <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-4">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-3">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-2">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-1">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <div class="emoji-wrapper">
+                                </div>
+                            </div>
+                            <div class="price d-flex justify-content-center">
+                                <p class="price-discount">$116.000</p>
+                                <p class="price-root">$127.000</p>
+                            </div>
+                            <div class="icon-product">
+                                <button><i class="ti-shopping-cart"></i></button>
+                                <button><i class="ti-heart"></i></button>
+                                <button><i class="ti-image"></i></button>
+                            </div>
+                        
+                        </div>
+                       <div class=" col-md-3 product-item">
+                           <img src="./asset/img/product/777.jpg">
+                           <p class="name-product">Duis autem veleum</p>
+                           
+                            <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-4">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-3">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-2">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <input type="radio" name="rating" id="rating-1">
+                              <i class="fa fa-star star-color" aria-hidden="true"></i>
+                              <div class="emoji-wrapper">
+                                </div>
+                            </div>
+                            <div class="price d-flex justify-content-center">
+                                <p class="price-discount">$116.000</p>
+                                <p class="price-root">$127.000</p>
+                            </div>
+                            <div class="icon-product">
+                                <button><i class="ti-shopping-cart"></i></button>
+                                <button><i class="ti-heart"></i></button>
+                                <button><i class="ti-image"></i></button>
+                            </div>
+                      
+                        </div>
+                       <div class="col-md-3 product-item item-4">
+                           <img src="./asset/img/product/88.jpg" class="">
+                           <p class="name-product">Duis autem veleum</p>
+                          
+                                <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-4">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-3">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-2">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-1">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <div class="emoji-wrapper">
+                                      </div>
+                                </div>
+                                <div class="price d-flex justify-content-center">
+                                    <p class="price-discount">$116.000</p>
+                                    <p class="price-root">$127.000</p>
+                                </div>
+                                <div class="icon-product">
+                                    <button><i class="ti-shopping-cart"></i></button>
+                                    <button><i class="ti-heart"></i></button>
+                                    <button><i class="ti-image"></i></button>
+                                </div>
+                        </div>
+                        <!--  -->
+                        <div class="col-md-3 product-item item-4">
+                            <img src="./asset/img/product/99.jpg" class="">
+                            <p class="name-product">Duis autem veleum</p>
+                           
+                                 <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-4">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-3">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-2">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-1">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <div class="emoji-wrapper">
+                                      </div>
+                                 </div>
+                                 <div class="price d-flex justify-content-center">
+                                     <p class="price-discount">$116.000</p>
+                                     <p class="price-root">$127.000</p>
+                                 </div>
+                                 <div class="icon-product">
+                                     <button><i class="ti-shopping-cart"></i></button>
+                                     <button><i class="ti-heart"></i></button>
+                                     <button><i class="ti-image"></i></button>
+                                 </div>
+                         </div>
+                         <div class="col-md-3 product-item item-4">
+                            <img src="./asset/img/product/55.jpg" class="">
+                            <p class="name-product">Duis autem veleum</p>
+                           
+                                 <div class="rating">
+                                    <input type="radio" name="rating" id="rating-5">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-4">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-3">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-2">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <input type="radio" name="rating" id="rating-1">
+                                    <i class="fa fa-star star-color" aria-hidden="true"></i>
+                                    <div class="emoji-wrapper">
+                                      </div>
+                                 </div>
+                                 <div class="price d-flex justify-content-center">
+                                     <p class="price-discount">$116.000</p>
+                                     <p class="price-root">$127.000</p>
+                                 </div>
+                                 <div class="icon-product">
+                                     <button><i class="ti-shopping-cart"></i></button>
+                                     <button><i class="ti-heart"></i></button>
+                                     <button><i class="ti-image"></i></button>
+                                 </div>
+                         </div>
+                    </div>
+                </div>
         </section>
-    </main>
+        </div>
+    </div>
     <!--  -->
     <footer>
         <section class="subcribe">
-
+            <div class="row subcribe-mobi320" style="width: 100%;">
+                <div class="col-md-2"></div>
+                <div class="col text-center">
+                    <h4 class="row-md-4">THIS WEEK</h4>
+                    <div class="row-md-4 mt-20">
+                        <span class="d-block">Introducing james jagger for AW16 Men's</span>
+                        <a href="#" class="subcribe-link">View More</a href="#">
+                    </div>
+                    <div class="row-md-4 mt-20">
+                        <span class="d-block">Autunm Winter 2021</span>
+                        <a href="#" class="subcribe-link">View More</a href="#">
+                    </div>
+                    <div class="row-md-4 mt-20">
+                        <span class="d-block">Introducing james jagger for AW16 Men's</span>
+                        <a href="#" class="subcribe-link">View More</a href="#">
+                    </div>
+                </div>
+                <div class="col text-center mobi-sub">
+                    <h4>KEEP IN TOUCH...</h4>
+                    <p class="mt-20">Get style updates straight to your inbox. Simply enter your details below to keep
+                        up to date with the latest news on collec-tions and exclusive events.
+                    </p>
+                    <div class="input-group input-gr">
+                        <input type="text" class="form-control input-radius" placeholder="Put your Email Adress here">
+                        <div class="input-group-append">
+                          <button class="btn btn-secondary btn-radius" type="button">
+                            SUBSCRIBE
+                          </button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>  
         </section>
         <!--  -->
+        <div class="bg-white">
         <secction class="follow">
-
+            <div class="follow-gr">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                    <li><a href="#"><i class="ti-twitter"></i></a></li>
+                    <li><a href="#"><i class="ti-google"></i></a></li>
+                    <li><a href="#"><i class="ti-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-camera-retro"></i></a></li>
+                    <li><a href="#"><i class="ti-youtube"></i></a></li>
+                </ul>
+            </div>
         </secction>
         <!--  -->
         <section class="contact">
-
-        </section>
+            <div>
+                <div class="contact-text">
+                    <div class="contact-1">
+                        <h3>OUR SHOPS</h3>
+                        <ul>
+                            <li><a href="#">Product Support</a></li>
+                            <li><a href="#">PC Setup & Support</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Extended Service Plans</a></li> 
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-2">
+                        <h3>ORDERS</h3>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Oder Tracking</a></li>
+                            <li><a href="#">Watch List</a></li>
+                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="#">Returns / Exchanges</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-3">
+                        <h3>OUR SHOPS</h3>
+                        <ul>
+                            <li><a href="#">Product Support</a></li>
+                            <li><a href="#">PC Setup & Support</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Extended Service Plans</a></li>
+                            <li><a href="#">Community</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-4">
+                        <h3>CONTACT US</h3>
+                        <ul>
+                            <li><a href="#">Address:No 40 Baria Street 133/2 NewYork City, Ny, United Stated</a></li>
+                            <li><a href="#"><i class="ti-email"></i>
+                                Email: contact@market.com
+                            </a></li>
+                            <li><a href="#"><i class="ti-mobile"></i>
+                                Phone1: 0123456789</a></li>
+                            <li><a href="#"><i class="ti-mobile"></i>
+                                Phone2: 0123456789</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="bank-card">
+            <div class="bank">
+                <div class="text-bank">
+                    <p>@2016 Mangeto Themes Demo Store. All right Reserved. Designed by <a href="#">MagenTech.com</a></p>
+                </div>
+                <div class="card-bank">
+                    <img src="./asset/img/bank-card/bank.jpg" alt="">
+                </div>
+            </div>
+        </section> 
+    </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
